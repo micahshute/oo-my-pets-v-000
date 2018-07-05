@@ -14,6 +14,10 @@ class Owner
     @@all.clear
   end
 
+  def self.count
+    @@all.length
+  end
+
   attr_reader :name
   attr_accessor :mood
 
