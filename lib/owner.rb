@@ -4,11 +4,14 @@ require_relative 'fish'
 
 class Owner
 
+  @@all = []
+  
   attr_reader :name
   attr_accessor :mood
 
   def initialize()
     @pets = {fishes: [], cats: [], dogs: []}
+    @@all << self
   end
 
   def buy_cat(name)
