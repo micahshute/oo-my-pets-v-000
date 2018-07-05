@@ -1,7 +1,7 @@
 class Cat
 
   attr_reader :name
-  attr_accessor :moode
+  attr_accessor :mood
 
   def initialize(name, mood="nervous")
     @name = name
