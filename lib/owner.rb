@@ -18,7 +18,7 @@ class Owner
     self.pets << Dog.new(name)
   end
 
-  def buy_fishname)
+  def buy_fish(name)
     self.pets << Fish.new(name)
   end
 
