@@ -1,11 +1,11 @@
-require_relative 'cat'
-require_relative 'dog'
-require_relative 'fish'
+# require_relative 'cat'
+# require_relative 'dog'
+# require_relative 'fish'
 
 class Owner
 
   attr_accessor :pets
-  
+
   def initialize()
     @pets = {fishes: [], cats: [], dogs: []}
   end
@@ -21,5 +21,5 @@ class Owner
   def buy_fishname)
     self.pets << Fish.new(name)
   end
-  
+
 end
