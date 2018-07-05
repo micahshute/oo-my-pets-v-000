@@ -18,10 +18,10 @@ class Owner
     @@all.length
   end
 
-  attr_reader :name
+  attr_reader :name, :species 
   attr_accessor :mood
 
-  def initialize(name)
+  def initialize(name, species="human")
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
