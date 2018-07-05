@@ -11,7 +11,7 @@ class Owner
   end
 
   def self.reset_all
-    @all.clear
+    @@all.clear
   end
 
   attr_reader :name
