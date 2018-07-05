@@ -10,6 +10,10 @@ class Owner
     @@all
   end
 
+  def self.reset_all
+    @all.clear
+  end
+
   attr_reader :name
   attr_accessor :mood
 
