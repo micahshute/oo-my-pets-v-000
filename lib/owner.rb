@@ -5,7 +5,11 @@ require_relative 'fish'
 class Owner
 
   @@all = []
-  
+
+  def self.all
+    @@all
+  end
+
   attr_reader :name
   attr_accessor :mood
 
