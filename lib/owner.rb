@@ -18,8 +18,8 @@ class Owner
     @@all.length
   end
 
-  attr_reader :name, :species
-  attr_accessor :mood
+  attr_reader :species
+  attr_accessor :mood, :name
 
   def initialize(name, species="human")
     @name = name
