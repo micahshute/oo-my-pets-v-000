@@ -40,4 +40,8 @@ class Owner
     self.pets << Fish.new(name)
   end
 
+  def say_species
+    "I am a #{@species}"
+  end
+
 end
