@@ -18,7 +18,7 @@ class Owner
     @@all.length
   end
 
-  attr_reader :species
+  attr_reader :species, :pets
   attr_accessor :mood, :name
 
   def initialize(name, species="human")
