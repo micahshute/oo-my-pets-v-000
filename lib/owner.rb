@@ -4,7 +4,7 @@ require_relative 'fish'
 
 class Owner
 
-  attr_accessor :pets
+  attr_reader :pets
 
   def initialize()
     @pets = {fishes: [], cats: [], dogs: []}
